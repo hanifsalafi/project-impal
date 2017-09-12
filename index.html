@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Landing Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ 	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<section class="hero">
+			<header>
+				<div class="container">
+					<nav class="navbar navbar-light navbar-toggleable-sm">
+						<a href="#" class="navbar-brand mb-0">Tel-U Library</a>
+
+						<button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#headerNav" aria-controls="headerNav" aria-expanded="false" aria-label="Toggle navigation">
+
+						<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<div id="headerNav" class="collapse navbar-collapse justify-content-end">
+							<ul class="nav navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href="#sec-home" >Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#sec-tentang">Tentang</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#sec-layanan">Layanan</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#sec-download">Download</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#sec-berita">Berita</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#sec-event">Event</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#sec-kontak">Kontak</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+
+			</header>
+			
+			<div class="jumbotron jumbotron-fluid mb-0">
+				<div class="container">
+					<div class="row justify-content-center text-center welcome">
+						<div class="col-md-10 col-lg-6">
+							<h1 class="display-5">Selamat Datang di Tel-U Library</h1>
+							<p class="lead">
+								Tempat dimana anda bisa menemukan buku yang anda cari.
+							</p>
+							<p class="lead">
+								<a href="#sec-cari" class="btn btn-primary btn-lg" role="button">Cari Buku</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="sec-cari" class="sec-cari">
+			<div class="container">
+				<div class="row justify-content-center text-center cari-content">
+					<div class="col-md-10 col-lg-8">
+						<h1 class="h4">Apa yang anda cari di Tel-U Library?</h1>
+					</div>
+				</div>
+				
+				<div class="row mt-4 searching">
+					<div class="col-sm-4 text-center pt-4">
+						<input class="form-control" placeholder="Cari Keyword" id="keywords" name="keywords" type="text">
+					</div>
+					<div class="col-sm-3 text-center pt-4">
+						<select name="catalog" id="catalog" class="form-control select-hidden">
+                                    <option>Cari Katalog</option>
+                                    <option>Katalog 01</option>
+                                    <option>Katalog 02</option>
+                                    <option>Katalog 03</option>
+                                    <option>Katalog 04</option>
+                                    <option>Katalog 05</option>
+                        </select>
+  					</div>
+					<div class="col-sm-3 text-center pt-4">
+						<select name="categories" id="categories" class="form-control select-hidden">
+                                    <option>Semua Kategori</option>
+                                    <option>Kategori 01</option>
+                                    <option>Kategori 02</option>
+                                    <option>Kategori 03</option>
+                                    <option>Kategori 04</option>
+                                    <option>Kategori 05</option>
+                        </select>
+					</div>
+					<div class="col-sm-2 text-center pt-4">
+						<a href="#sec-cari" class="btn btn-primary btn-lg btn-cari" role="button">Cari</a>
+					</div>
+
+				</div>
+			</div>		
+		</section>
+
+		
+		<footer class="footer">
+				<div class="container">
+					<ul class="list-inline mb-0 text-center">
+						<li class="list-inline-item">
+							<a href="twitter.com" target="_blank"><span class="fa fa-twitter"></span></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="facebook.com" target="_blank"><span class="fa fa-google-plus"></span></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="instagram.com" target="_blank"><span class="fa fa-instagram"></span></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="gmail.com" target="_blank"><span class="fa fa-envelope-o"></span></a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+
+
+	</div>
+
+	<script src="jquery/jquery.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
